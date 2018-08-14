@@ -1,0 +1,233 @@
+{% extends "template.njk" %}
+
+{% from "phase-banner/macro.njk" import govukPhaseBanner %}
+
+
+{% block headIcons %}
+{{ super() }}
+{% endblock %}
+
+{% block head %}
+<!--[if !IE 8]><!-->
+<link href="/static/css/screen.css" rel="stylesheet" />
+<!--<![endif]-->
+{% endblock %}
+
+{% block main %}
+{{ super() }}
+{% endblock %}
+
+{% block beforeContent %}
+
+<nav aria-labelledby="mainmenulabel" class="esfa-navigation">
+    <h2 id="mainmenulabel" class="govuk-visually-hidden">Main Menu</h2>
+    <ul role="menubar" class="esfa-navigation__list">
+        <li><a href="#" class="selected" role="menuitem">Home</a></li>
+        <li><a href="#" class="" role="menuitem">Finance</a></li>
+        <li><a href="#" class="" role="menuitem">Apprentices</a></li>
+        <li><a href="#" class="" role="menuitem">Your team</a></li>
+        <li><a href="#" class="" role="menuitem">Your organisations and agreements</a></li>
+        <li><a href="#" class="" role="menuitem">PAYE schemes</a></li>
+    </ul>
+</nav>
+
+{% endblock %}
+
+{% block content %}
+<div class="govuk-body">
+<h1 class="govuk-heading-xl">Company name</h1>
+<p class="govuk-body-l">This is some content </p>
+
+<p>The default paragraph font size is 19px on large screens and 16px on small screens.</p>
+
+</div>
+
+<div class="govuk-form-group">
+    <label class="govuk-label" for="select">
+        Select field
+    </label>
+    <select id="select" name="select" class="govuk-select">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
+</div>
+
+<div class="govuk-form-group" id="testId">
+    <label class="govuk-label" for="postcode">
+        Postcode
+    </label>
+    <input class="govuk-input govuk-input--width-10" id="postcode" name="postcode" type="text">
+</div>
+
+
+
+{% endblock %}
+
+{% block bodyEnd %}
+<script src="/static/js/all.js"></script>
+<script>window.GOVUKFrontend.initAll()</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.js"></script>
+
+<script>
+
+
+    
+    $(function () {
+      $('.error-summary-with-sticky a').on('click touch', function (e) {
+
+        var target = $(this).prop('hash'),
+            $target = $(target);
+
+        if ($target.length === 0) {
+          return;
+        }
+
+        window.scrollTo(0, $target.offset().top - 100);
+
+        if ($target.is('input, select')) {
+          $target.focus();
+        }
+
+        e.preventDefault();
+      });
+    });
+
+    (function ($) {
+      'use strict';
+
+      /* CLASS
+       * =============================== */
+      var STACKable = function (e, o) {
+        this.stacker = {
+          e: null,
+          html: '<li class="menu-link"><a href="#">More</a><ul></ul></li>',
+          width: 0
+        };
+        this.e = e;
+        this.navItems = {
+          items: {},
+          length: 0
+        };
+        this.navWidth =
+          this.containerWidth = 0;
+
+        var t = 0,
+          tw = 0,
+          to = this.navItems.items;
+        this.e.children('li').each(function () {
+          to[t] = {
+            html: $(this)[0].outerHTML,
+            width: $(this).outerWidth(true),
+            submenu: false,
+            visible: true
+          };
+          if ($(this).hasClass('submenu')) to[t].submenu = true;
+          tw += to[t].width;
+          t++;
+        });
+        this.navItems.length = t;
+        this.navWidth = tw;
+
+        this.stacker.e = $(this.stacker.html).appendTo(this.e);
+        this.stacker.width = this.stacker.e.outerWidth(true);
+        this.stacker.e.remove();
+
+        this.magic();
+      };
+
+      STACKable.prototype.resetStack = function () {
+        for (var tc = 0; tc < this.navItems.length; tc++) {
+          this.navItems.items[tc].visible = true;
+        }
+      };
+
+      STACKable.prototype.magic = function () {
+        this.resetStack();
+        this.containerWidth = this.e.parent().width()-15;
+
+        var match = 0, tc = 0;
+
+        if (this.containerWidth < this.navWidth) {
+          for (tc = 0; tc < this.navItems.length; tc++) {
+            match += this.navItems.items[tc].width;
+            if ((match + this.stacker.width) > this.containerWidth) {
+              this.navItems.items[tc].visible = false;
+            }
+          }
+        }
+        this.stack();
+      };
+
+      STACKable.prototype.stack = function () {
+        this.e.empty();
+        var showStacker = false, tc = 0;
+        for (tc = 0; tc < this.navItems.length; tc++) {
+          if (this.navItems.items[tc].visible) {
+            $(this.navItems.items[tc].html).appendTo(this.e);
+          } else {
+            showStacker = true;
+            break;
+          }
+        }
+
+        if (showStacker) {
+          this.stacker.e = $(this.stacker.html).appendTo(this.e);
+          for (tc = 0; tc < this.navItems.length; tc++) {
+            if (!this.navItems.items[tc].visible) {
+              var th = this.navItems.items[tc].html;
+              if (th.indexOf('<ul>') !== -1) {
+                th = th.replace(/<a[^>]*>/, '<span class="sa-anchor-replacement">').replace(/<\/a>/, '</span>');
+              }
+              $(th).appendTo(this.stacker.e.children('ul'));
+              this.navItems.items[tc].visible = false;
+            }
+          }
+        }
+      };
+
+      STACKable.prototype.setActions = function () {
+        var te = this.e,
+          menuSelector = 'li.submenu, li.menu-link',
+          menuAnchorSelector = 'li.submenu>a, li.menu-link>a';
+
+        $(te).on('click.stackable.nav', menuAnchorSelector, function () {
+          if ($(this).parent().hasClass('sub-menu-open')) {
+            $(te.selector).children(menuSelector).removeClass('sub-menu-open');
+          } else {
+            $(te.selector).children(menuSelector).removeClass('sub-menu-open');
+            $(this).parent().toggleClass('sub-menu-open');
+          }
+          return false;
+        });
+        $(document).on('click.stackable.closure', function () {
+          $(te.selector).children(menuSelector).removeClass('sub-menu-open');
+        });
+        $(document).on("keydown", this, function (e) {
+          if (e.keyCode !== 9) {
+            $(te.selector).children(menuSelector).removeClass('sub-menu-open');
+          }
+        });
+      };
+
+      /* PLUGIN
+       * =============================== */
+      $.fn.collapsableNav = function (options) {
+        var defaults = { stackerLabel: '+' },
+          ko = false;
+        this.each(function () { if (this.tagName != 'UL') ko = true; });
+
+        if (!ko) {
+          var d = new STACKable(this, $.extend(defaults, options));
+          d.setActions();
+          $(window).resize(function () { d.magic(); });
+        }
+      };
+
+    })(jQuery);
+
+    //$('ul#global-nav-links').collapsableNav();
+    
+</script>
+
+{% endblock %}

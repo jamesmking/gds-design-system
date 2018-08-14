@@ -1,0 +1,31 @@
+$govuk-assets-path: "../assets/";
+$govuk-fonts-path: "../assets/fonts/";
+
+@import "all";
+@import "navigation";
+
+.fixed-navbar {
+  height: 50px;
+  position: fixed;
+  background: lightskyblue;
+  left: 0;
+  top: 0;
+  right: 0;
+  opacity: .6;
+}
+
+label:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}
+
+#postcode:after {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}
