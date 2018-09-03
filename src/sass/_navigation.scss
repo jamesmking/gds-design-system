@@ -1,13 +1,21 @@
 
 
 .esfa-navigation {
-
+  border-top: 10px solid govuk-colour("light-purple");
+  margin-top: -10px;
+  z-index: 1;
 }
 
 .esfa-navigation__list {
   @extend %govuk-list;
+  li {
+    display: inline-block;
+  }
 }
 
 .esfa-navigation__list a {
   @extend  %govuk-link;
+  &:visited {
+    color: $govuk-link-colour;
+  }
 }
