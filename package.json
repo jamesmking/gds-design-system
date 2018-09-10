@@ -1,13 +1,13 @@
 {
   "name": "gds-design-system",
   "version": "1.0.0",
-  "description": "Test project to use new GDS design system ",
+  "description": "Front-end project containing bespoke components for use across the ESFA applications",
   "main": "index.js",
   "scripts": {
     "dev": "settings='dev' node server.js",
     "start": "node server.js"
   },
-  "author": "James King",
+  "author": "ESFA",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",

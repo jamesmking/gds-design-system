@@ -3,11 +3,37 @@
   <component name="ChangeListManager">
     <list default="true" id="1de4fcb8-2b64-450f-9205-6561d3c908dc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/screen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bold-a2452cb66f-v1.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bold-f38c792ac2-v1.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bold-fb2676462a-v1.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bold-tabular-357fdfbcc3-v1.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bold-tabular-784c21afb8-v1.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/bold-tabular-b89238d840-v1.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/light-2c037cf7e1-v1.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/light-458f8ea81c-v1.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/light-f38ad40456-v1.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/light-tabular-498ea8ffe2-v1.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/light-tabular-62cc6f0a28-v1.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/light-tabular-851b10ccdd-v1.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/govuk-apple-touch-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/govuk-apple-touch-icon-167x167.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/govuk-apple-touch-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/govuk-apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/govuk-crest-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/govuk-crest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/govuk-logotype-crown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/govuk-mask-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/govuk-opengraph-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/icon-arrow-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/icon-important.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/icon-pointer-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/icon-pointer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/common.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,21 +50,21 @@
         <counts>
           <entry key="project.closed" value="15" />
           <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
           <entry key="html" value="11" />
-          <entry key="js" value="25" />
-          <entry key="json" value="8" />
+          <entry key="js" value="27" />
+          <entry key="json" value="9" />
           <entry key="md" value="2" />
           <entry key="njk" value="6" />
           <entry key="scss" value="25" />
@@ -48,8 +74,8 @@
         <counts>
           <entry key="CSS" value="2" />
           <entry key="HTML" value="11" />
-          <entry key="JSON" value="8" />
-          <entry key="JavaScript" value="25" />
+          <entry key="JSON" value="9" />
+          <entry key="JavaScript" value="27" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="SCSS" value="25" />
         </counts>
@@ -57,16 +83,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1037" />
-          <entry key="js" value="465" />
-          <entry key="json" value="9" />
+          <entry key="js" value="469" />
+          <entry key="json" value="101" />
           <entry key="scss" value="381" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1037" />
-          <entry key="JSON" value="9" />
-          <entry key="JavaScript" value="465" />
+          <entry key="JSON" value="101" />
+          <entry key="JavaScript" value="469" />
           <entry key="SCSS" value="381" />
         </counts>
       </usages-collector>
@@ -74,21 +100,30 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/index.html">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="51" />
+            <state relative-caret-position="90">
+              <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sass/_navigation.scss">
+        <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="90">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -107,7 +142,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/dist/html/index.html" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/../govuk-starter-kit/package.json" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/sass/navigation.scss" />
@@ -118,9 +152,10 @@
         <option value="$PROJECT_DIR$/src/app/scrape/views/index.js" />
         <option value="$PROJECT_DIR$/src/app/scrape/views/index.html" />
         <option value="$PROJECT_DIR$/src/app/scrape/getScrape.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/app/views/index.html" />
         <option value="$PROJECT_DIR$/src/sass/_navigation.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -140,7 +175,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
@@ -219,12 +254,54 @@
     </option>
   </component>
   <component name="RunManager" selected="Gulp.js.default">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="copy-assets" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>copy-assets</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="copy-js" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>copy-js</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="default" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
       <tasks>
         <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="sass" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>sass</task>
       </tasks>
       <arguments />
       <envs />
@@ -240,26 +317,20 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Gulp.js.default" />
       <item itemvalue="npm.dev" />
-      <item itemvalue="npm.start" />
+      <item itemvalue="Gulp.js.copy-assets" />
+      <item itemvalue="Gulp.js.copy-js" />
+      <item itemvalue="Gulp.js.sass" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gulp.js.default" />
-        <item itemvalue="npm.start" />
+        <item itemvalue="Gulp.js.sass" />
+        <item itemvalue="Gulp.js.copy-js" />
+        <item itemvalue="Gulp.js.copy-assets" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="Gulp.js.default" />
       </list>
     </recent_temporary>
   </component>
@@ -289,11 +360,12 @@
       <workItem from="1534497882471" duration="371000" />
       <workItem from="1534855224850" duration="21000" />
       <workItem from="1535529267813" duration="2211000" />
+      <workItem from="1536567136087" duration="313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38750000" />
+    <option name="totallyTimeSpent" value="39063000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -305,16 +377,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1680" height="977" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="977" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7446328" visible="true" weight="0.25738397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74285716" visible="true" weight="0.25738397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.25536722" side_tool="true" visible="true" weight="0.25738397" />
+      <window_info id="npm" order="2" sideWeight="0.25714287" side_tool="true" visible="true" weight="0.25738397" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299435" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20903955" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20903955" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/screen.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -440,13 +505,6 @@
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -459,10 +517,10 @@
     <entry file="file://$PROJECT_DIR$/src/app/scrape/index.js" />
     <entry file="file://$PROJECT_DIR$/src/app/ajaz/index.js" />
     <entry file="file://$PROJECT_DIR$/app/views/scrape.html" />
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/src/sass/_navigation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="74" lean-forward="true" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -473,10 +531,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/_navigation.scss">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="630">
+          <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
